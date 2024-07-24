@@ -1,0 +1,79 @@
+{
+    "httpMethod": "POST",
+    "body": {
+      "ResumeId": "1",
+      "name": "Keerthana Kuppi Srinivasan",
+      "label": "Full Stack Developer",
+      "email": "kuppisrinivasan.k@northeastern.edu",
+      "url": "portfolio-keerthana.vercel.app",
+      "location": {
+        "city": "Boston",
+        "countryCode": "US",
+        "region": "Massachusetts"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "keerthanaks",
+          "url": "https://www.linkedin.com/in/keerthanaksrinivasan/"
+        }
+      ],
+      "work": [
+        {
+          "name": "TheBoard",
+          "position": "Software Engineer Intern",
+          "startDate": "2023-05-05",
+          "endDate": "2023-05-01",
+          "summary": "Developed a React Native app with AWS Lambda backend and PostgreSQL database, boosting engagement by 40% and efficiency by 25%."
+        },
+        {
+          "name": "Unthink",
+          "position": "Full Stack Developer",
+          "startDate": "2020-20-10",
+          "endDate": "2022-31-12",
+          "summary": "Engineered high-performance Django REST APIs and Google Assistant voice apps, optimizing chatbot response times and improving conversation completion rates through data-driven enhancements."
+        }
+      ],
+      "education": [
+        {
+          "institution": "Northeastern University",
+          "location": "Boston, MA",
+          "degree": "Master of Science in Software Engineering Systems",
+          "endDate": "2024-20-12"
+        },
+        {
+          "institution": "SSN College of Engineering, Anna University",
+          "location": "Chennai, India",
+          "degree": "Bachelor of Engineering in Computer Science",
+          "startDate": "2016-07-01",
+          "endDate": "2020-07-01"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Dollar Dashboard",
+          "startDate": "2023-02-01",
+          "endDate": "2023-04-01",
+          "description": "Developed a responsive financial SPA with Node.js backend and MongoDB, featuring data visualizations that improved user engagement by 30% and budgeting efficiency by 40%.",
+          "highlights": [],
+          "url": ""
+        },
+        {
+          "name": "Cloud-Native Web Application (Node.js, PostgreSQL, AWS)",
+          "startDate": "2023-01-01",
+          "endDate": "2023-04-01",
+          "description": "Built a cloud-native web app REST APIs using node.js, PostgreSQL, RESTful APIs, AWS S3, and DNS mapping for enhanced UX. Created custom AMIs with Packer and managed infrastructure-as-code with Terraform (VPCs, subnets, routes, EC2/RDS instances, S3 buckets, ELBs, security groups) by implementing version control on Git having low latency and high reliability. Implemented robust CI/CD pipelines on GitHub for seamless integration and rapid code deployment.",
+          "highlights": [],
+          "url": "https://github.com/kskeerthana/DollarDashboard"
+        },
+        {
+          "name": "WordWise",
+          "startDate": "2023-10-01",
+          "endDate": "2023-12-01",
+          "description": "Developed an iOS app using Swift and Firebase, implementing async loading and efficient data management, resulting in 10% vocabulary improvement in child users.",
+          "highlights": [],
+          "url": "https://github.com/kskeerthana/WordWise"
+        }
+      ]
+    }
+  }
