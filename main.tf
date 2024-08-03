@@ -31,8 +31,8 @@ resource "aws_dynamodb_table" "resume_table" {
 }
 
 resource "aws_lambda_function" "resume_serverless_Api" {
-  filename = "./lambda-function/resume-fetch.zip"
-  source_code_hash = filebase64sha256("./lambda-function/resume-fetch.zip")
+  filename = "lambda-function/resume-fetch.zip"
+  source_code_hash = filebase64sha256("lambda-function/resume-fetch.zip")
   function_name = "Resume_serverless_Api"
   handler = "index.handler"
   runtime = "nodejs16.x"
