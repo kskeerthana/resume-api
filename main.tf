@@ -34,7 +34,7 @@ resource "aws_lambda_function" "resume_serverless_Api" {
   filename = "lambda-function/resume-fetch.zip"
   source_code_hash = filebase64sha256("lambda-function/resume-fetch.zip")
   function_name = "Resume_serverless_Api"
-  handler = "index.handler"
+  handler = "resume_fetch/index.handler"
   runtime = "nodejs16.x"
   role = aws_iam_role.lambda_exec_role.arn
   environment {
